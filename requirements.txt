@@ -16,3 +16,6 @@ langchain-openai
 streamlit
 python-dotenv
 livekit-plugins-noise-cancellation~=0.2
+
+# Add the following line to ensure the latest version of the OpenAI library is used
+# or update it if necessary
