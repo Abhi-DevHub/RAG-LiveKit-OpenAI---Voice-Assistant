@@ -1,6 +1,15 @@
 # RAG-LiveKit-OpenAI---Voice-Assistant
 Voice Assistant with RAG, LiveKit, and OpenAI Chat or talk with your own documents using Retrieval-Augmented Generation (RAG), Pinecone, OpenAI, and LiveKit. Includes a Streamlit chat UI and a real-time voice agent for LiveKit rooms.
 
+## 📸 Project Overview
+
+![Application Interface](Images/image3.png)
+*LiveKit voice interaction*
+
+![Application Interface](Images/image4.png)
+LiveKit chat interaction
+![System flow](Images/image1.png)
+*System-flow*
 
 ## 📁 Project Structure
 
@@ -75,6 +84,8 @@ streamlit run app.py
 ```
 Open the local URL shown in your browser.  
 Ask questions about your documents!
+
+![Streamlit UI](Images/image5.png)
 
 ---
 
