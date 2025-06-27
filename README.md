@@ -92,7 +92,7 @@ Ask questions about your documents!
 ## 🗣️ Run the LiveKit Voice Agent
 
 ```sh
-python livekit_agent.py
+python livekit_agent.py dev
 ```
 This will start the backend agent that listens and responds in a LiveKit room.
 
@@ -154,7 +154,3 @@ Just make sure the room name in the Playground matches the one your agent joins.
 - [LangChain](https://www.langchain.com/)
 
 ---
-
-## 📝 License
-
-??????
