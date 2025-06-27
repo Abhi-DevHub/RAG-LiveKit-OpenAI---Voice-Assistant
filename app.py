@@ -9,8 +9,8 @@ from langchain_pinecone import PineconeVectorStore
 load_dotenv()
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PINECONE_INDEX_NAME = "rag-agent-ai-qa"
-PINECONE_NAMESPACE = "ns3-rag-agent-ai-qa"
+PINECONE_INDEX_NAME = "your-index-name"  # Replace with your actual index name
+PINECONE_NAMESPACE = "your-namespace"  # Replace with your actual namespace
 
 # Initialize Pinecone and OpenAI
 pc = Pinecone(api_key=PINECONE_API_KEY)
