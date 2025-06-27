@@ -6,18 +6,18 @@ Voice Assistant with RAG, LiveKit, and OpenAI Chat or talk with your own documen
 
 ```
 RAG+LiveKit+openAI/
-├── KMS/                  # (Custom folder, not used by core code)
-├── pdfs/                 # Place your PDF files here for ingestion
-├── venv/                 # Python virtual environment (auto-generated)
-├── .env                  # Environment variables (not committed)
-├── app.py                # Streamlit chat UI for RAG
-├── livekit_agent.py      # LiveKit voice agent backend
-├── main_load.py          # Loads and indexes PDFs into Pinecone
-├── requirements.txt      # Python dependencies
-├── test1.py              # (Your test scripts)
-├── test2.py
-├── test3.py
-└── WhatsApp Image ...    # (Your images, not used by code)
+├── KMS/                  # Custom folder for knowledge management (not used by core code)
+├── pdfs/                 # Directory to place your PDF files for document ingestion
+├── venv/                 # Python virtual environment (auto-generated during setup)
+├── .env                  # Environment variables configuration file (not committed to version control)
+├── app.py                # Streamlit web UI for interactive RAG chat interface
+├── livekit_agent.py      # LiveKit voice agent backend for real-time voice interactions
+├── main_load.py          # Document loader that processes and indexes PDFs into Pinecone vector database
+├── requirements.txt      # Python package dependencies list
+├── test1.py              # Connection test script for LiveKit room functionality
+├── test2.py              # Connection test script for Pinecone database and document retrieval
+├── test3.py              # Connection test script for OpenAI API key validation
+└── Images ...    # Image showing the system state flow diagram (general overview)
 ```
 
 ---
