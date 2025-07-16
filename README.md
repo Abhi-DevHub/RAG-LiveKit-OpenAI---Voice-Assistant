@@ -27,6 +27,7 @@ RAG+LiveKit+openAI/
 ├── test2.py
 ├── test3.py
 └── Images ...    # (Your images, not used by code)
+├── THIS_IS_FOR_MAKE_IT_RUN_LOCAL # (Check this file to run the project locally -- token and room id generation)
 ```
 
 ---

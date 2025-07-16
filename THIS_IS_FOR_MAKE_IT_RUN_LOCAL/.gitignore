@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test/utility files and folders
+online_one/
+test_env.py
+test1.py
+test2.py
+test3.py
+tempCodeRunnerFile.py
+pdfs/
+
+# Misc
+*.bak
+*.tmp
